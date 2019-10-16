@@ -8,11 +8,12 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template('weather.html',
-    data=[{'name':'Warsaw'}, {'name':'Krakow'}, {'name':'Katowice'},
-    {'name':'Lublin'}, {'name':'Lodz'}, {'name':'Gdansk'},
-    {'name':'Szczecin'}, {'name':'Suwalki'}, {'name':'Torun'},
-    {'name':'Rzeszow'}, {'name':'Zakopane'}, {'name':'Poznan'},
-    {'name':'Hel'}, {'name':'Wroclaw'}, {'name':'Olsztyn'}])
+    data=[{'name':'Bialystok'}, {'name':'Czestochowa'},
+    {'name':'Gdansk'}, {'name':'Hel'},{'name':'Katowice'},{'name':'Krakow'},
+    {'name':'Lodz'}, {'name':'Lublin'},{'name':'Olsztyn'},
+    {'name':'Poznan'},{'name':'Rzeszow'},{'name':'Suwalki'},
+    {'name':'Szczecin'},{'name':'Torun'},{'name':'Warsaw'},
+    {'name':'Wroclaw'},{'name':'Zakopane'}])
 
 
 @app.route("/result" , methods=['GET', 'POST'])
