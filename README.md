@@ -17,4 +17,4 @@ $ python main.py
 
 Assuming you're using the default templates and not rolling your own, go to localhost:5000/ and check weather in biggest cities in Poland.
 
-Source https://www.freecodecamp.org/
+Source freecodecamp.org
