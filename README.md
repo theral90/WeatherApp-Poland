@@ -1,5 +1,5 @@
 # WeatherApp_Flask
-# Weather App using Flask, Open WREADME.mdeather Map API 
+# Web app using Python’s Flask and Google App Engine
 
 Weather checking app using the Flask framework.
 
